@@ -4,20 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title> <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <style type="text/tailwindcss">
         @layer utilities {
-          .content-auto {
-            content-visibility: auto;
-          }
+        .content-auto {
+          content-visibility: auto;
         }
-      </style>
+      }
+    </style>
 </head>
 <body>
     <header>
+
         
     </header>
     <main>
         <section></section>
+
+        <div class="w-[375px] h-[40px] flex justify-between m-auto flex-wrap">
+                <button class="menu-button" id="menuButton">
+                  <span class="menu-icon">☰</span> 
+                </button>
+                <div class="logo"><img src="./img/8332kpf5rgrj8uwp26x8fbn42mdty1bn 1.svg" alt=""></div>
+                <button class="search-button" id="searchButton">
+                  <span class="search-icon"><img src="./img/search.svg" alt=""></span>
+                </button>
+                <nav class="mobile-menu" id="mobileMenu">
+                </nav>
+                <nav class="input-menu" id="inputSearch">
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section>
+              <div class=" w-[375px] m-auto h-[323px] bg-[url('./img/baby.svg')]  z-auto">
+                <div class=" m-auto  h-[323px]  w-[375px] bg-[url('./img/nty.svg')] mt-[40px] pl-[17px]">
+                  <h1 class="text-start text-[28px] font-bold pt-[63px]">Большая зимняя распродажа от LeoKid</h1>
+                  <p class="text-start text-[#33394F9E] text-[16px] pt-[19px] font-normal	w-[304px]">Конверт Leokid Classic подходит для использования в любых колясках, автокреслах и санках. Для прогулок осенью, зимой, весной и даже прохладным летом.</p>
+                </div>
+              </div>
+            </section>
         <section></section>
         <section>
          <div class="flort">
@@ -123,7 +149,54 @@
         </section>
         <section></section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="w-[375px] h-[370px] m-auto ">
+        <div class="w-[206px] m-auto text-center mt-[30px]">
+          <img src="./img/8332kpf5rgrj8uwp26x8fbn42mdty1bn 1 (1).svg" alt="">
+          <h1 class="pt-[12px] text-[#33394F6B]">2022 © «LalaSTORE»</h1>
+        </div>
+          <div class="w-[308px] flex justify-between items-center m-auto mt-[41px]">
+            <img src="./img/Vector (18).svg" alt="">
+            <img src="./img/Vector (19).svg" alt="">
+            <img src="./img/Vector (20).svg" alt="">
+            <img src="./img/Vector (21).svg" alt="">
+          </div>
+          <nav>
+            <ul class="text-[14px] font-normal text-[#33394F6B] text-center mt-[34px]">
+              <a href="">
+                <li>Политика конфиденциальности</li>
+              </a>
+            </ul>
+          </nav>
+          <div class="w-[375px] h-[84px] bg-[#33394F] mt-[36px] flex justify-around items-center text-white flex-wrap">
+            <div class=" w-[70px] justify-center items-center text-center leading-[30px] ">
+              <button id="button-footer">
+              <img src="./img/Group 3924.svg" alt="" class="m-auto">
+              <h1 class="text-[12px] font-normal font-sans	">Каталог</h1>
+            </button>
+            </div>
+            <div class=" w-[70px] justify-center items-center text-center leading-[20px] mt-[-5px]">
+              <button>
+              <img src="./img/Group 3474.svg" alt="" class="m-auto">
+              <h1 class="text-[12px] font-normal font-sans	">Избранное</h1>
+            </button>
+            </div>
+            <div class=" w-[50px] justify-center items-center text-center leading-[30px]">
+              <button>
+              <img src="./img/Vector (24).svg" alt="" class="m-auto">
+              <h1 class="text-[12px] font-normal font-sans	">Корзина</h1>
+            </button>
+            </div>
+            <div class=" w-[70px] justify-center items-center text-center leading-[30px]">
+              <button>
+              <img src="./img/Vector (23).svg" alt="" class="m-auto">
+              <h1 class="text-[12px] font-normal font-sans	">Войти</h1>
+            </button>
+            </div>
+            <div class="w-[134px] h-[5px] m-auto rounded-[3px] bg-white"></div>
+          </div>
+      </div>
+    </footer>
 </body>
 <script src="./app.js"></script>
 </html>

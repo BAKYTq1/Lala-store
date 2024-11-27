@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      }
+    </style>
+</head>
+<body>
+    <div class="w-[375px] h-[40px] flex justify-between m-auto flex-wrap">
+        <button class="menu-button" id="menuButton">
+          <span class="menu-icon">☰</span> 
+        </button>
+        <div class="logo"><img src="./img/8332kpf5rgrj8uwp26x8fbn42mdty1bn 1.svg" alt=""></div>
+        <button class="search-button" id="searchButton">
+          <span class="search-icon"><img src="./img/search.svg" alt=""></span>
+        </button>
+        <nav class="mobile-menu" id="mobileMenu">
+        </nav>
+        <nav class="input-menu" id="inputSearch">
+        </nav> 
+    </div>
+    
+</body>
+<script src="./katalog.js"></script>
+</html>
