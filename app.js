@@ -1,4 +1,14 @@
 
+document.querySelector('.img').addEventListener('click', function () {
+    const menu = document.querySelector('.dropdown-menu');
+    if (menu.style.display === 'none' || menu.style.display === '') {
+      menu.style.display = 'block'; 
+    } else {
+      menu.style.display = 'none';
+    }
+  });
+   
+
 
 const track = document.querySelector('.carousel-track');
 const prevButton = document.getElementById('prevButton');
@@ -44,6 +54,12 @@ window.addEventListener('click', (event) => {
   if (event.target === modal) {
     modal.style.display = 'none';
   }
+});
+const closeButton = document.querySelector('.btn-item'); 
+const formContainer = document.querySelector('.modal'); 
+
+closeButton.addEventListener('click', () => {
+  formContainer.style.display = 'none';
 });
 
 
@@ -110,4 +126,51 @@ data.forEach((item) => {
     </div>
     `
 mobileMenu.appendChild(div)
+})
+
+const div2 = document.querySelector('.div2')
+
+const infoBlock = [
+  {
+    img: './img/4j0u01nxo87ky1em2aajac3j9ms1k6xh 8.svg',
+    text: 'В наличии',
+    text1: 'Боди без рукавов "ФРУК-ТИК", розовый',
+    text2: '349 ₽/шт',
+    text3: 'купить в 1 клик',
+  },
+  {
+    img: './img/0o8doy9tcgr9xfesapj5aw07x3wcea3f.svg',
+    text: 'В наличии',
+    text1: 'Боди без рукавов "ФРУК-ТИК", розовый',
+    text2: '349 ₽/шт',
+    text3: 'купить в 1 клик',
+  },
+  {
+    img: './img/4j0u01nxo87ky1em2aajac3j9ms1k6xh 8.svg',
+    text: 'В наличии',
+    text1: 'Боди без рукавов "ФРУК-ТИК", розовый',
+    text2: '349 ₽/шт',
+    text3: 'купить в 1 клик',
+  },
+  {
+    img: './img/0o8doy9tcgr9xfesapj5aw07x3wcea3f.svg',
+    text: 'В наличии',
+    text1: 'Боди без рукавов "ФРУК-ТИК", розовый',
+    text2: '349 ₽/шт',
+    text3: 'купить в 1 клик',
+  }
+]
+
+infoBlock.forEach((info) => {
+  const element = document.createElement('div')
+  element.innerHTML = `
+  <div class='w-[171px] h-[310px] m-auto '>
+  <img src='${info.img}'>
+  <button class='w-[76px] h-[20px] ml-[50px]  bg-[green]  text-[12px] rounded-[12px]'>${info.text}</button>
+  <h1 class='font-bold text-[13px] text-center'>${info.text1}</h1>
+  <h1 class='font-bold text-[16px] text-center'>${info.text2}</h1>
+  <h1 class='text-center'>${info.text3}</h1>
+  </div>
+  `;
+  div2.appendChild(element)
 })
