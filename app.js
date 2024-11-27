@@ -1,4 +1,14 @@
 
+document.querySelector('.img').addEventListener('click', function () {
+    const menu = document.querySelector('.dropdown-menu');
+    if (menu.style.display === 'none' || menu.style.display === '') {
+      menu.style.display = 'block'; 
+    } else {
+      menu.style.display = 'none';
+    }
+  });
+   
+
 
 const track = document.querySelector('.carousel-track');
 const prevButton = document.getElementById('prevButton');
@@ -111,3 +121,4 @@ data.forEach((item) => {
     `
 mobileMenu.appendChild(div)
 })
+
