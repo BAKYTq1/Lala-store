@@ -41,10 +41,6 @@
     color: #33394F;
 }
 
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 /* section 3 */
 .flort{
     width: 375px;
@@ -301,9 +297,6 @@ text-underline-position: from-font;
 text-decoration-skip-ink: none;
 margin-bottom: 30px;
 margin-left: 70px;
-  }
-  .opssjfbdfjhfnsjhfn{
-    /* margin-left: 150px; */
   }
   .jtui{
    color: #818492;
