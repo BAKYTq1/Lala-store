@@ -7,7 +7,7 @@
     font-family: Arial, sans-serif;
 }
 .bai{
-    width: 400px;
+    width: 375px;
     margin: auto;
 }
 .text{
@@ -27,7 +27,7 @@
     border: none;
     font-weight: 700;
     font-size: 16px;
-    z-index: 3;
+    z-index: 10;
 }
 .dropdown-menu{
   z-index: 3;
@@ -36,6 +36,7 @@
     height: 405px;
     background-color: #FDEDBE;
     margin-top: 21px;
+    z-index: 12;
 }  
 .ul{
     list-style: none;
@@ -46,10 +47,12 @@
 }
 /* section 3 */
 .flort{
+  margin-top: 100px;
     width: 375px;
     margin: auto;
 }
 .ewqewwj{
+  margin-top: 50px;
 font-family: Montserrat;
 font-size: 24px;
 font-weight: 700;
@@ -373,6 +376,192 @@ border: none;
   .jweehwhrhebwe{
     width: 375px;
     margin: auto;
+    margin-top: 50px;
+  }
+.bcdjuwjehdsbab{
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+line-height: 29.26px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+text-align: center;
+
+}
+.hafdgjsyegwfhdsjb{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 20px;
+    
+}
+.ghefwjdkqmslppl{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 20px;
+}
+.njfekmdewkjefne{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 20px;
+    
+}
+.mbvn{
+    font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 21.79px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+/* From Uiverse.io by SteveBloX */ 
+.cardwq {
+    box-sizing: border-box;
+    width: 265px;
+    height: 188px;
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px (0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    cursor: pointer;
+    transition: all 0.5s;    user-select: none;
+    font-weight: bolder;
+    color: black;
+    justify-content: center;
+   margin-left: 60px;
+   margin-top: 30px;
+  }
+  .cardwq:hover {
+    border: 1px solid black;
+    transform: scale(1.05);
+  }
+  
+  .cardwq:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+  }
+  /* шь */
+  .xcvbnmmkm{
+   width: 84px;
+   height: 84px;
+   border-radius: 50%;
+   background-color: #F7D05E;
+   margin: 0 auto;
+   margin-bottom: 40px;
+   justify-content: center;
+    align-items: center;
+    max-height: 100vh;
+    display: flex;
+  }
+  .asdfghjkyhn{
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 700;
+line-height: 24.38px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+text-align: center;
+margin-top: -35px;
+  }
+  .qazxefccgb{
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 24.51px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #33394F9E;
+/* 2 */
+  }
+  .xcvbnmmkmу{
+   width: 84px;
+   height: 84px;
+   border-radius: 50%;
+   background-color: #F7D05E;
+   margin: 0 auto;
+   margin-bottom: 40px;
+   justify-content: center;
+    align-items: center;
+    max-height: 100vh;
+    display: flex;
+  }
+  .asdfghjkyhnу{
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 700;
+line-height: 24.38px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+text-align: center;
+margin-top: -35px;
+  }
+  .qazxefccgbу{
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 24.51px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #33394F9E;
+  }
+  /* 3 */
+  .xcvbnmmkmt{
+   width: 84px;
+   height: 84px;
+   border-radius: 50%;
+   background-color: #F7D05E;
+   margin: 0 auto;
+   margin-bottom: 40px;
+   justify-content: center;
+    align-items: center;
+    max-height: 100vh;
+    display: flex;
+  }
+  .asdfghjkyhnt{
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 700;
+line-height: 24.38px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+text-align: center;
+margin-top: -35px;
+  }
+  .qazxefccgbt{
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 24.51px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #33394F9E;
+  }
+  /* 6 section */
+body {
+margin: 0;
+    font-family: Arial, sans-serif;
   }
   .menu-button {
     background: none;
