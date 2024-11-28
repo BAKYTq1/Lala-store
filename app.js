@@ -164,7 +164,7 @@ const infoBlock = [
 infoBlock.forEach((info) => {
   const element = document.createElement('div')
   element.innerHTML = `
-  <div class='w-[171px] h-[310px] m-auto mt-[25px]'>
+  <div class='w-[171px] h-[310px] m-auto mt-[20px]'>
   <img src='${info.img}'>
   <img src='${info.img2}' class='m-auto mt-[-10px]'>
   <h1 class='font-bold text-[13px] text-center  mt-[10px] w-[156px]'>${info.text1}</h1>

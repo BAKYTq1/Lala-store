@@ -345,14 +345,13 @@ border: none;
     margin-top: 10px;
   }
   /*  */
-  input {
-    width: 200px;
-    
+  .poutbght {
+    width: 290px;
     padding: 5px;
     font-size: 16px;
   }
 
-  input:focus {
+  .poutbght:focus {
     width: 300px;
     transition: width 0.3s ease; 
   }
@@ -559,10 +558,6 @@ text-decoration-skip-ink: none;
 color: #33394F9E;
   }
   /* 6 section */
-body {
-margin: 0;
-    font-family: Arial, sans-serif;
-  }
   .menu-button {
     background: none;
     border: none;
