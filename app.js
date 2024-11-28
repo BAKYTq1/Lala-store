@@ -55,6 +55,12 @@ window.addEventListener('click', (event) => {
     modal.style.display = 'none';
   }
 });
+const closeButton = document.querySelector('.btn-item'); 
+const formContainer = document.querySelector('.modal'); 
+
+closeButton.addEventListener('click', () => {
+  formContainer.style.display = 'none';
+});
 
 
 const menuButton = document.getElementById('menuButton');
@@ -122,3 +128,49 @@ data.forEach((item) => {
 mobileMenu.appendChild(div)
 })
 
+const div2 = document.querySelector('.div2')
+
+const infoBlock = [
+  {
+    img: './img/4j0u01nxo87ky1em2aajac3j9ms1k6xh 8.svg',
+    img2: './img/vnalichi.svg',
+    text1: 'Боди без рукавов "ФРУК-ТИК", розовый',
+    text2: '349 ₽/шт',
+    text3: 'купить в 1 клик',
+  },
+  {
+    img: './img/0o8doy9tcgr9xfesapj5aw07x3wcea3f.svg',
+    img2: './img/vnalichi.svg',
+    text1: 'Боди без рукавов "ФРУК-ТИК", розовый',
+    text2: '349 ₽/шт',
+    text3: 'купить в 1 клик',
+  },
+  {
+    img: './img/4j0u01nxo87ky1em2aajac3j9ms1k6xh 8.svg',
+    img2: './img/vnalichi.svg',
+    text1: 'Боди без рукавов "ФРУК-ТИК", розовый',
+    text2: '349 ₽/шт',
+    text3: 'купить в 1 клик',
+  },
+  {
+    img: './img/0o8doy9tcgr9xfesapj5aw07x3wcea3f.svg',
+    img2: './img/vnalichi.svg',
+    text1: 'Боди без рукавов "ФРУК-ТИК", розовый',
+    text2: '349 ₽/шт',
+    text3: 'купить в 1 клик',
+  }
+]
+
+infoBlock.forEach((info) => {
+  const element = document.createElement('div')
+  element.innerHTML = `
+  <div class='w-[171px] h-[310px] m-auto mt-[25px]'>
+  <img src='${info.img}'>
+  <img src='${info.img2}' class='m-auto mt-[-10px]'>
+  <h1 class='font-bold text-[13px] text-center  mt-[10px] w-[156px]'>${info.text1}</h1>
+  <h1 class='font-bold text-[16px] text-center mt-[10px]'>${info.text2}</h1>
+  <button class=' mt-[15px] w-[140px] h-[34px] ml-[17px] bg-[#F7D05E] rounded-[94px] text-white'>${info.text3}</button>
+  </div>
+  `;
+  div2.appendChild(element)
+})
