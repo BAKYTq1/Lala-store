@@ -212,10 +212,9 @@ const infoBlock = [
 ]
 
 infoBlock.forEach((info) => {
-  const element1 = document.createElement('div')
-  element1.innerHTML = `
-  <div class='w-[375px] justify-between flex bg-black flex-wrap'>
-  <div class='w-[153px] h-[299px] m-auto mt-[25px]'>
+  const element = document.createElement('div')
+  element.innerHTML = `
+  <div class='w-[171px] h-[310px] m-auto mt-[25px]'>
   <img src='${info.img}'>
   <img src='${info.img2}' class=' m-auto mt-[-10px]'>
   <h1 class='font-bold text-[13px] text-center  mt-[10px] w-[156px]'>${info.text1}</h1>
@@ -226,4 +225,3 @@ infoBlock.forEach((info) => {
   `;
   // inputSearch.appendChild(element1)
 })
-
