@@ -5,14 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title> <link rel="stylesheet" href="./style.css">
     <script src="https://cdn.tailwindcss.com"></script>
-
-    <style type="text/tailwindcss">
-        @layer utilities {
-        .content-auto {
-          content-visibility: auto;
-        }
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .content-auto {
+        content-visibility: auto;
       }
-    </style>
+    }
+  </style>
 </head>
 <body>
     <header>
@@ -243,17 +242,20 @@
           </div>
         </section>
         <section>
-          <div class="w-[375px] h-[700px] m-auto">
+          <div class="w-[375px] h-[749px] m-auto bg-[#F4F4F4] pt-[20px] mt-[20px]">
             <h1 class="text-[24px] font-bold text-center">Ранее вы смотрели</h1>
             <div class="div2 w-[347px] h-[310px] m-auto flex flex-wrap justify-between"></div>
           </div>
-          <div>
-            <!-- <h1>Подписаться на рассылку</h1> -->
+          <div class="w-[375px] h-[233px] m-auto ">
+            <h1 class="text-center font-bold text-[24px] pb-[22px] pt-[30px]">Подписаться на рассылку</h1>
+            <label for="search" class="text-[#818492]">Почта</label>
+            <input type="search" ce placeholder="e-mail.com" class="bg-[#F4F4F4] w-[347px] h-[40px] text-[#818492] rounded-[5px] pl-[10px] mt-[10px]">
+          <button class="w-[347px] h-[43px] m-auto text-center bg-[#F7D05E] mt-[15px] rounded-[94px] font-bold text-[14px] text-white">подписаться</button>
           </div>
         </section>
     </main>
     <footer>
-      <div class="w-[375px] h-[370px] m-auto ">
+      <div class="w-[375px] h-[370px] m-auto bg-[#F4F4F4] pt-[30px]">
         <div class="w-[206px] m-auto text-center mt-[30px]">
           <img src="./img/8332kpf5rgrj8uwp26x8fbn42mdty1bn 1 (1).svg" alt="">
           <h1 class="pt-[12px] text-[#33394F6B]">2022 © «LalaSTORE»</h1>
@@ -273,8 +275,8 @@
           </nav>
           <div class="w-[375px] h-[84px] bg-[#33394F] mt-[36px] flex justify-around items-center text-white flex-wrap">
             <div class=" w-[70px] justify-center items-center text-center leading-[30px] ">
-              <button id="button-footer">
-              <img src="./img/Group 3924.svg" alt="" class="m-auto">
+              <button class="menu-button1" id="menuButton1">
+              <img src="./img/Group 3924.svg" alt="" class="m-auto" >
               <h1 class="text-[12px] font-normal font-sans	">Каталог</h1>
             </button>
             </div>
@@ -299,6 +301,8 @@
             <div class="w-[134px] h-[5px] m-auto rounded-[3px] bg-white"></div>
           </div>
       </div>
+      <nav class="mobile-menu1" id="mobileMenu1">
+      </nav>
     </footer>
 </body>
 <script src="./app.js"></script>
