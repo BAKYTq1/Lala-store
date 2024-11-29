@@ -595,6 +595,8 @@ margin: 0;
     background: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 10px;
+    margin: 0 auto;
+    
   }
   
   .mobile-menu.open {
@@ -604,5 +606,9 @@ margin: 0;
   
   .input-menu.get {
     display: block;
-    height: 500px;
+    margin: 0 auto;
+    z-index: 20;
+    /* height: 500px; */
   }
+  /*  */
+  
