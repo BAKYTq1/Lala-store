@@ -213,6 +213,11 @@ const infoBlock = [
 
 infoBlock.forEach((info) => {
 
+  const element = document.createElement('div')
+  element.innerHTML = `
+  <div class='w-[171px] h-[310px] m-auto mt-[25px]'>
+
+
   const element1 = document.createElement('div')
   element1.innerHTML = `
   <div class='w-[375px] justify-between flex bg-black flex-wrap'>
@@ -220,6 +225,7 @@ infoBlock.forEach((info) => {
   const element = document.createElement('div')
   element.innerHTML = `
   <div class='w-[171px] h-[310px] m-auto mt-[20px]'>
+
   <img src='${info.img}'>
   <img src='${info.img2}' class=' m-auto mt-[-10px]'>
   <h1 class='font-bold text-[13px] text-center  mt-[10px] w-[156px]'>${info.text1}</h1>
@@ -229,12 +235,17 @@ infoBlock.forEach((info) => {
   </div>
   `;
 
+  // inputSearch.appendChild(element1)
+});
+
+
     inputSearch.appendChild(element1)
 })
 
 
   div2.appendChild(element)
 })
+
 
 
 const menuButton1 = document.getElementById('menuButton1');
@@ -259,6 +270,9 @@ const data1 = [
       info7: 'г. Москва, Электролитный проезд 3Б стр 6',
       info8: '+7 916 361-30-00',
   }
+
+]
+
 ] 
 
 data1.forEach((item) => {
@@ -283,3 +297,4 @@ data1.forEach((item) => {
   `
   menuButton1.appendChild(div)
 })
+
