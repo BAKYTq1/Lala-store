@@ -215,6 +215,16 @@ infoBlock.forEach((info) => {
   const element = document.createElement('div')
   element.innerHTML = `
   <div class='w-[171px] h-[310px] m-auto mt-[25px]'>
+  const element1 = document.createElement('div')
+  element1.innerHTML = `
+  <div class='w-[375px] justify-between flex bg-black flex-wrap'>
+  <div class='w-[153px] h-[299px] m-auto mt-[25px]'>
+
+  const element = document.createElement('div')
+  element.innerHTML = `
+  <div class='w-[171px] h-[310px] m-auto mt-[20px]'>
+
+
   <img src='${info.img}'>
   <img src='${info.img2}' class=' m-auto mt-[-10px]'>
   <h1 class='font-bold text-[13px] text-center  mt-[10px] w-[156px]'>${info.text1}</h1>
@@ -225,3 +235,60 @@ infoBlock.forEach((info) => {
   `;
   // inputSearch.appendChild(element1)
 })
+
+  // inputSearch.appendChild(element1)
+})
+
+
+  div2.appendChild(element)
+})
+
+
+const menuButton1 = document.getElementById('menuButton1');
+const mobileMenu1 = document.getElementById('mobileMenu1');
+
+
+menuButton1.addEventListener('click', () => {
+    mobileMenu1.classList.toggle('open1');
+    menuButton1.innerHTML = mobileMenu1.classList.contains() 
+});
+
+const data1 = [
+  {
+      info1: 'Главная',
+      info2: 'Как купить',
+      info3: 'Доставка',
+      info4: 'О компании',
+      info5: 'Мы в instagram',
+      info6: 'Акции',
+      img: './img/Vector (15).svg',
+      img1: './img/Vector (16).svg',
+      info7: 'г. Москва, Электролитный проезд 3Б стр 6',
+      info8: '+7 916 361-30-00',
+  }
+]
+
+// data1.forEach((item) => {
+//   const div = document.createElement('div')
+//   div.innerHTML = `
+//   <div class='w-[375px] m-auto text-center leading-[30px] text-[#33394F6B]'>
+//   <a href=''><h1 class='hover:text-[black] text-[22px] font-normal font-sans cursor-pointer'>${item.info1}</h1></a>
+//   <a href='./pages/как купит/kakKupit.html'><h1 class='hover:text-[black] text-[22px] font-normal font-sans cursor-pointer'>${item.info2}</h1></a>
+//   <a href='./pages/Доставка/dostavka.html'><h1 class='hover:text-[black] text-[22px] font-normal font-sans cursor-pointer'>${item.info3}</h1></a>
+//   <h1 class='hover:text-[black] text-[22px] font-normal font-sans cursor-pointer'>${item.info4}</h1>
+//   <h1 class='hover:text-[black] text-[22px] font-normal font-sans cursor-pointer'>${item.info5}</h1>
+//   <h1 class='hover:text-[black] text-[22px] font-normal font-sans cursor-pointer'>${item.info6}</h1>
+//   <div class='flex w-[260px] justify-center items-center m-auto mt-[30px] text-[black] text-[18px] font-normal font-sans gap-[10px]'>
+//   <img src='${item.img}'>
+//   <h1 class='cursor-pointer'>${item.info7}</h1>
+//   </div>
+//    <div class='flex w-[200px] justify-center items-center m-auto mt-[10px] gap-[10px] text-[black] text-[18px] font-normal font-sans cursor-pointer'>
+//   <img src='${item.img1}'>
+//   <h1>${item.info8}</h1>
+//   </div>
+//   </div>
+//   `
+//   menuButton1.appendChild(div)
+// })
+
+
