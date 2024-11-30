@@ -64,6 +64,8 @@ window.addEventListener('click', (event) => {
   }
 });
 // 3333333
+// Получаем элементы
+
 
 
 
