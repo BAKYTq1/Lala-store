@@ -212,19 +212,41 @@ const infoBlock = [
 ]
 
 infoBlock.forEach((info) => {
+
   const element = document.createElement('div')
   element.innerHTML = `
   <div class='w-[171px] h-[310px] m-auto mt-[25px]'>
+
+
+  const element1 = document.createElement('div')
+  element1.innerHTML = `
+  <div class='w-[375px] justify-between flex bg-black flex-wrap'>
+  <div class='w-[153px] h-[299px] m-auto mt-[25px]'>
+  const element = document.createElement('div')
+  element.innerHTML = `
+  <div class='w-[171px] h-[310px] m-auto mt-[20px]'>
+
   <img src='${info.img}'>
   <img src='${info.img2}' class=' m-auto mt-[-10px]'>
   <h1 class='font-bold text-[13px] text-center  mt-[10px] w-[156px]'>${info.text1}</h1>
   <h1 class='font-bold text-[16px] text-center mt-[10px]'>${info.text2}</h1>
-  <button class=' mt-[15px] w-[140px] h-[34px] ml-[17px] bg-[#F7D05E] rounded-[94px] text-white'>${info.text3}</button>
+  <button class='mt-[15px] w-[140px] h-[34px] ml-[17px] bg-[#F7D05E] rounded-[94px] text-white'>${info.text3}</button>
   </div>
   </div>
   `;
+
   // inputSearch.appendChild(element1)
 });
+
+
+    inputSearch.appendChild(element1)
+})
+
+
+  div2.appendChild(element)
+})
+
+
 
 const menuButton1 = document.getElementById('menuButton1');
 const mobileMenu1 = document.getElementById('mobileMenu1');
@@ -248,4 +270,31 @@ const data1 = [
       info7: 'г. Москва, Электролитный проезд 3Б стр 6',
       info8: '+7 916 361-30-00',
   }
+
 ]
+
+] 
+
+data1.forEach((item) => {
+  const div = document.createElement('div')
+  div.innerHTML = `
+  <div class='w-[375px] m-auto text-center leading-[30px] text-[#33394F6B]'>
+  <a href=''><h1 class='hover:text-[black] text-[22px] font-normal font-sans cursor-pointer'>${item.info1}</h1></a>
+  <a href='./pages/как купит/kakKupit.html'><h1 class='hover:text-[black] text-[22px] font-normal font-sans cursor-pointer'>${item.info2}</h1></a>
+  <a href='./pages/Доставка/dostavka.html'><h1 class='hover:text-[black] text-[22px] font-normal font-sans cursor-pointer'>${item.info3}</h1></a>
+  <h1 class='hover:text-[black] text-[22px] font-normal font-sans cursor-pointer'>${item.info4}</h1>
+  <h1 class='hover:text-[black] text-[22px] font-normal font-sans cursor-pointer'>${item.info5}</h1>
+  <h1 class='hover:text-[black] text-[22px] font-normal font-sans cursor-pointer'>${item.info6}</h1>
+  <div class='flex w-[260px] justify-center items-center m-auto mt-[30px] text-[black] text-[18px] font-normal font-sans gap-[10px]'>
+  <img src='${item.img}'>
+  <h1 class='cursor-pointer'>${item.info7}</h1>
+  </div>
+   <div class='flex w-[200px] justify-center items-center m-auto mt-[10px] gap-[10px] text-[black] text-[18px] font-normal font-sans cursor-pointer'>
+  <img src='${item.img1}'>
+  <h1>${item.info8}</h1>
+  </div>
+  </div>
+  `
+  menuButton1.appendChild(div)
+})
+

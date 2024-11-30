@@ -602,10 +602,13 @@ color: #33394F9E;
   .input-menu.get {
     display: block;
 
-  
-
-    height: 500px;
+    margin: 0 auto;
+    z-index: 20;
+    /* height: 500px; */
   }
+  /*  */
+
+
 
   .menu-button1 {
     background: none;
