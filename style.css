@@ -25,19 +25,375 @@
     font-weight: 700;
     font-size: 16px;
     z-index: 3;
-    
 }
-.dropdown-menu{
-  position: absolute;
+.img{
+    cursor: pointer;
+}
+.img:hover{
+    transform: rotate(60deg);
+    transition: 1s;
+}
+
+.btn2{
     width: 375px;
-    height: 405px;
-    background-color: #FDEDBE;
-    margin-top: 21px;
-}  
-.ul{
-    list-style: none;
-    margin-left: 20px;
-    font-size: 18px;
-    font-weight: 400;
-    color: #33394F;
+    height: 53px;
+    background-color: #F7D05E;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    z-index: 3;
 }
+.img2{
+    cursor: pointer;
+}
+.img2:hover{
+    transform: rotate(60deg);
+    transition: 1s;
+}
+
+.btn3{
+    width: 375px;
+    height: 53px;
+    background-color: #F7D05E;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    z-index: 3;
+}
+.img3{
+    cursor: pointer;
+}
+.img3:hover{
+    transform: rotate(60deg);
+    transition: 1s;
+}
+
+.btn4{
+    width: 375px;
+    height: 53px;
+    background-color: #F7D05E;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    z-index: 3;
+}
+.img4{
+    cursor: pointer;
+}
+.img4:hover{
+    transform: rotate(60deg);
+    transition: 1s;
+}
+
+.btn5{
+    width: 375px;
+    height: 53px;
+    background-color: #F7D05E;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    z-index: 3;
+}
+.img5{
+    cursor: pointer;
+}
+.img5:hover{
+    transform: rotate(60deg);
+    transition: 1s;
+}
+
+ 
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    background-color: #FDEDBE;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .value {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    color: #33394F;
+    font-weight: 500;
+    display: flex;
+    position: relative;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .value:not(:active):hover,
+  .value:focus {
+    background-color: #F7D05E;
+    width: 375px;
+  }
+  
+  .value:focus,
+  .value:active {
+    background-color: #F7D05E;
+    outline: none;
+  }
+  
+  .value::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    width: 5px;
+    height: 80%;
+    background-color: #2F81F7;
+    border-radius: 5px;
+    opacity: 0;
+  }
+  
+  .value:focus::before,
+  .value:active::before {
+    opacity: 1;
+  }
+  
+  .value svg {
+    width: 15px
+  }
+  
+  .input:hover > :not(.value:hover) {
+    transition: 200ms;
+    transform: scale(0.95,0.95);
+  }
+.input2 {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    background-color: #FDEDBE;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .value {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    color: #33394F;
+    font-weight: 500;
+    display: flex;
+    position: relative;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .value:not(:active):hover,
+  .value:focus {
+    background-color: #F7D05E;
+    width: 375px;
+  }
+  
+  .value:focus,
+  .value:active {
+    background-color: #F7D05E;
+    outline: none;
+  }
+  
+  .value::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    width: 5px;
+    height: 80%;
+    background-color: #2F81F7;
+    border-radius: 5px;
+    opacity: 0;
+  }
+  
+  .value:focus::before,
+  .value:active::before {
+    opacity: 1;
+  }
+  
+  .value svg {
+    width: 15px
+  }
+  
+  .input:hover > :not(.value:hover) {
+    transition: 200ms;
+    transform: scale(0.95,0.95);
+  }
+.input3 {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    background-color: #FDEDBE;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .value {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    color: #33394F;
+    font-weight: 500;
+    display: flex;
+    position: relative;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .value:not(:active):hover,
+  .value:focus {
+    background-color: #F7D05E;
+    width: 375px;
+  }
+  
+  .value:focus,
+  .value:active {
+    background-color: #F7D05E;
+    outline: none;
+  }
+  
+  .value::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    width: 5px;
+    height: 80%;
+    background-color: #2F81F7;
+    border-radius: 5px;
+    opacity: 0;
+  }
+  
+  .value:focus::before,
+  .value:active::before {
+    opacity: 1;
+  }
+  
+  .value svg {
+    width: 15px
+  }
+  
+  .input:hover > :not(.value:hover) {
+    transition: 200ms;
+    transform: scale(0.95,0.95);
+  }
+.input4 {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    background-color: #FDEDBE;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .value {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    color: #33394F;
+    font-weight: 500;
+    display: flex;
+    position: relative;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .value:not(:active):hover,
+  .value:focus {
+    background-color: #F7D05E;
+    width: 375px;
+  }
+  
+  .value:focus,
+  .value:active {
+    background-color: #F7D05E;
+    outline: none;
+  }
+  
+  .value::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    width: 5px;
+    height: 80%;
+    background-color: #2F81F7;
+    border-radius: 5px;
+    opacity: 0;
+  }
+  
+  .value:focus::before,
+  .value:active::before {
+    opacity: 1;
+  }
+  
+  .value svg {
+    width: 15px
+  }
+  
+  .input:hover > :not(.value:hover) {
+    transition: 200ms;
+    transform: scale(0.95,0.95);
+  }
+.input5 {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    background-color: #FDEDBE;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .value {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    color: #33394F;
+    font-weight: 500;
+    display: flex;
+    position: relative;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .value:not(:active):hover,
+  .value:focus {
+    background-color: #F7D05E;
+    width: 375px;
+  }
+  
+  .value:focus,
+  .value:active {
+    background-color: #F7D05E;
+    outline: none;
+  }
+  
+  .value::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    width: 5px;
+    height: 80%;
+    background-color: #2F81F7;
+    border-radius: 5px;
+    opacity: 0;
+  }
+  
+  .value:focus::before,
+  .value:active::before {
+    opacity: 1;
+  }
+  
+  .value svg {
+    width: 15px
+  }
+  
+  .input:hover > :not(.value:hover) {
+    transition: 200ms;
+    transform: scale(0.95,0.95);
+  }
