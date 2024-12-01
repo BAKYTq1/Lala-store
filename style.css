@@ -658,9 +658,6 @@ text-decoration-skip-ink: none;
 margin-bottom: 30px;
 margin-left: 70px;
   }
-  .opssjfbdfjhfnsjhfn{
-    /* margin-left: 150px; */
-  }
   .jtui{
    color: #818492;
    margin-left: -230px;
@@ -738,24 +735,10 @@ border: none;
     margin: auto;
   }
 
-box-sizing: border-box;
-margin: 0;
-padding: 0;
-}
 body {
 margin: 0;
     font-family: Arial, sans-serif;
   }
-/*   
-  header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-    background-color: white;
-    border-bottom: 1px solid #ddd;
-  } */
-  
   .menu-button {
     background: none;
     border: none;
