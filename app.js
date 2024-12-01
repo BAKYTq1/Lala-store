@@ -7,7 +7,6 @@ document.querySelector('.img').addEventListener('click', function () {
       menu.style.display = 'none';
     }
   });
-<<<<<<< HEAD
 document.querySelector('.img2').addEventListener('click', function () {
     const menu = document.querySelector('.input2');
     if (menu.style.display === 'none' || menu.style.display === '') {
@@ -42,7 +41,6 @@ document.querySelector('.img5').addEventListener('click', function () {
   });
    
   
-=======
    
 
 
@@ -157,5 +155,3 @@ data.forEach((item) => {
     `
 mobileMenu.appendChild(div)
 })
-
->>>>>>> 885e831eef5c802ce12569fafc3c8ed35fe68361

@@ -29,7 +29,6 @@
 .img{
     cursor: pointer;
 }
-<<<<<<< HEAD
 .img:hover{
     transform: rotate(60deg);
     transition: 1s;
@@ -397,7 +396,6 @@
   .input:hover > :not(.value:hover) {
     transition: 200ms;
     transform: scale(0.95,0.95);
-=======
 
     box-sizing: border-box;
     margin: 0;
@@ -799,5 +797,4 @@ margin: 0;
   .input-menu.get {
     display: block;
     height: 500px;
->>>>>>> 885e831eef5c802ce12569fafc3c8ed35fe68361
   }
