@@ -1,0 +1,45 @@
+body{
+    font-family: sans-serif;
+}
+.menu-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  } 
+  .search-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  } 
+  .mobile-menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+  .input-menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+  
+  .mobile-menu.open {
+    display: block;
+    height: 500px;
+  }
+  
+  .input-menu.get {
+    display: block;
+    height: 500px;
+  }

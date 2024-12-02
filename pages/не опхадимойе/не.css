@@ -1,0 +1,433 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .modal {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 346px;
+    height: 689px;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #aaa;
+  }
+  
+  .close:hover {
+    color: #000;
+  }
+  .oriutyi{
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+line-height: 29.26px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-bottom: 10px;
+  }
+  .dhjsfhjsas{
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 19.07px;
+text-align: left;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #33394F;
+  }
+  .treybfgh{
+    row-gap: 30px;
+    margin-top: 10px;
+  }
+  .bnvhcbfs{
+    margin-top: 10px;
+  }
+  .dfgh{
+    display: flex;
+    gap: 40px;
+    margin-left: 25px;
+  }
+  .orutiy{
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 19.5px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #33394F;
+width: 251px;
+margin-bottom: 10px;
+  }
+  .plmko{
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 21.79px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:  #B3B7CB;
+margin-bottom: 10px
+  }
+  .fiyuijh{
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 21.79px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #818492;
+  }
+  .kjhgfdxs{
+    width: 269px;
+    height: 45px;
+    border-radius: 22px;
+    opacity: 0px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.79px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-color: #F7D05E;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 40px;
+  }
+  .hgdlsgisj{
+    width: 269px;
+    height: 45px;
+    border-radius: 22px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.79px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-color: #33394F;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  /* 11111111 */
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .overlay {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 346px;
+    height: 907px;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #666;
+  }
+  
+  .close-btn:hover {
+    color: #333;
+  }
+  .oti{
+width: 316px;
+height: 35px;
+border-radius: 5px ;
+border: none;
+background-color: #F4F4F4;
+margin-bottom: 10px;
+}
+.mnbvn{
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 19.5px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.cb{
+font-family: Open Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 16.34px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.poliudf{
+    margin-top: 70px;
+}
+.ouippykj{
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+line-height: 29.26px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.asdfghbvn{
+font-family: Open Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 16.34px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #B3B7CB;
+margin-bottom: 20px;
+}
+.cxzdse{
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 19.5px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.olpif{
+    width: 269px;
+    height: 45px;
+    border-radius: 22px ;
+    opacity: 0px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.79px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-color: #F7D05E;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.olpifr{
+    width: 269px;
+    height: 45px;
+    border-radius: 22px;
+    opacity: 0px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.79px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-color: #33394F;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.olpifrg{
+border: none;
+}
+/* 2222222222 */
+
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .modal-container {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dialog-box {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    /* text-align: center; */
+    width: 346px;
+    height: 814px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .close-icon {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #444;
+  }
+  
+  .close-icon:hover {
+    color: #000;
+  }
+ .qwereddf{
+    width: 206px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-left: 40px;
+ }
+ .xerty{
+    margin-top: 40px;
+ }
+ .lkjl{
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 19.5px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-bottom: 20px;
+ }
+ .din{
+   font-family: Open Sans;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 21.79px;
+   text-align: left;
+   text-underline-position: from-font;
+   text-decoration-skip-ink: none;
+   color:#B3B7CB;
+   margin-bottom: 10px;
+ }
+ .ouipr{
+    margin-bottom: 20px;
+ }
+ .vit{
+width: 115px;
+height: 29px;
+border-radius: 22px;
+opacity: 0px;
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 700;
+line-height: 21.79px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+background-color: #F7D05E;
+color: #FFFFFF;
+text-align: center;
+margin-left: 10px;
+ }
+ /* 333333333 */
+/* Общие стили */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Стили для поиска */
+.search-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#searchInput {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#searchButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#searchButton:hover {
+  background-color: #0056b3;
+}
+
+/* Стили для товаров */
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+  width: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.product p {
+  margin: 10px 0 0;
+  font-size: 16px;
+  color: #333;
+}
+
