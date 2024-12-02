@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(49, 46, 46);
+}
+.container{
+    position: relative;
+    width: 375px;
+    margin: auto;
+    background-color: white;
+}
+h1{
+    margin: auto;
+    margin-left: 14px;
+    position: relative;
+}
+.card{
+    width: 347px;
+    margin: auto;
+}
+.card2{
+    width: 347px;
+    margin: auto;
+    margin-top: 20px;
+}
+.card3{
+    width: 347px;
+    margin: auto;
+    margin-top: 20px;
+}
+.card4{
+    width: 347px;
+    margin: auto;
+    margin-top: 20px;
+}
+.card5{
+    width: 347px;
+    margin: auto;
+    margin-top: 20px;
+}
+.card6{
+    width: 347px;
+    margin: auto;
+    margin-top: 20px;
+}
