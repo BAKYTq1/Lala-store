@@ -29,12 +29,108 @@
     font-size: 16px;
     z-index: 10;
 }
+
+.img{
+    cursor: pointer;
+}
+.img:hover{
+    transform: rotate(60deg);
+    transition: 1s;
+}
+
+.btn2{
+    width: 375px;
+    height: 53px;
+    background-color: #F7D05E;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    z-index: 3;
+}
+.img2{
+    cursor: pointer;
+}
+.img2:hover{
+    transform: rotate(60deg);
+    transition: 1s;
+}
+
+.btn3{
+    width: 375px;
+    height: 53px;
+    background-color: #F7D05E;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    z-index: 3;
+}
+.img3{
+    cursor: pointer;
+}
+.img3:hover{
+    transform: rotate(60deg);
+    transition: 1s;
+}
+
+.btn4{
+    width: 375px;
+    height: 53px;
+    background-color: #F7D05E;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    z-index: 3;
+}
+.img4{
+    cursor: pointer;
+}
+.img4:hover{
+    transform: rotate(60deg);
+    transition: 1s;
+}
+
+.btn5{
+    width: 375px;
+    height: 53px;
+    background-color: #F7D05E;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    z-index: 3;
+}
+.img5{
+    cursor: pointer;
+}
+.img5:hover{
+    transform: rotate(60deg);
+    transition: 1s;
+}
+
+ 
+.input {
+    display: flex;
+    flex-direction: column;
+
 .dropdown-menu{
   z-index: 3;
   position: absolute;
+
     width: 375px;
-    height: 405px;
     background-color: #FDEDBE;
+
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .value {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+
     margin-top: 21px;
     z-index: 12;
 }  
@@ -44,7 +140,282 @@
     font-size: 18px;
     font-weight: 400;
     color: #33394F;
-}
+    font-weight: 500;
+    display: flex;
+    position: relative;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .value:not(:active):hover,
+  .value:focus {
+    background-color: #F7D05E;
+    width: 375px;
+  }
+  
+  .value:focus,
+  .value:active {
+    background-color: #F7D05E;
+    outline: none;
+  }
+  
+  .value::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    width: 5px;
+    height: 80%;
+    background-color: #2F81F7;
+    border-radius: 5px;
+    opacity: 0;
+  }
+  
+  .value:focus::before,
+  .value:active::before {
+    opacity: 1;
+  }
+  
+  .value svg {
+    width: 15px
+  }
+  
+  .input:hover > :not(.value:hover) {
+    transition: 200ms;
+    transform: scale(0.95,0.95);
+  }
+  
+.input2 {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    background-color: #FDEDBE;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .value {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    color: #33394F;
+    font-weight: 500;
+    display: flex;
+    position: relative;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .value:not(:active):hover,
+  .value:focus {
+    background-color: #F7D05E;
+    width: 375px;
+  }
+  
+  .value:focus,
+  .value:active {
+    background-color: #F7D05E;
+    outline: none;
+  }
+  
+  .value::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    width: 5px;
+    height: 80%;
+    background-color: #2F81F7;
+    border-radius: 5px;
+    opacity: 0;
+  }
+  
+  .value:focus::before,
+  .value:active::before {
+    opacity: 1;
+  }
+  
+  .value svg {
+    width: 15px
+  }
+  
+  .input:hover > :not(.value:hover) {
+    transition: 200ms;
+    transform: scale(0.95,0.95);
+  }
+.input3 {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    background-color: #FDEDBE;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .value {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    color: #33394F;
+    font-weight: 500;
+    display: flex;
+    position: relative;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .value:not(:active):hover,
+  .value:focus {
+    background-color: #F7D05E;
+    width: 375px;
+  }
+  
+  .value:focus,
+  .value:active {
+    background-color: #F7D05E;
+    outline: none;
+  }
+  
+  .value::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    width: 5px;
+    height: 80%;
+    background-color: #2F81F7;
+    border-radius: 5px;
+    opacity: 0;
+  }
+  
+  .value:focus::before,
+  .value:active::before {
+    opacity: 1;
+  }
+  
+  .value svg {
+    width: 15px
+  }
+  
+  .input:hover > :not(.value:hover) {
+    transition: 200ms;
+    transform: scale(0.95,0.95);
+  }
+.input4 {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    background-color: #FDEDBE;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .value {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    color: #33394F;
+    font-weight: 500;
+    display: flex;
+    position: relative;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .value:not(:active):hover,
+  .value:focus {
+    background-color: #F7D05E;
+    width: 375px;
+  }
+  
+  .value:focus,
+  .value:active {
+    background-color: #F7D05E;
+    outline: none;
+  }
+  
+  .value::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    width: 5px;
+    height: 80%;
+    background-color: #2F81F7;
+    border-radius: 5px;
+    opacity: 0;
+  }
+  
+  .value:focus::before,
+  .value:active::before {
+    opacity: 1;
+  }
+  
+  .value svg {
+    width: 15px
+  }
+  
+  .input:hover > :not(.value:hover) {
+    transition: 200ms;
+    transform: scale(0.95,0.95);
+  }
+.input5 {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    background-color: #FDEDBE;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .value {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    color: #33394F;
+    font-weight: 500;
+    display: flex;
+    position: relative;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .value:not(:active):hover,
+  .value:focus {
+    background-color: #F7D05E;
+    width: 375px;
+  }
+  
+  .value:focus,
+  .value:active {
+    background-color: #F7D05E;
+    outline: none;
+  }
+  
+  .value::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    width: 5px;
+    height: 80%;
+    background-color: #2F81F7;
+    border-radius: 5px;
+    opacity: 0;
+  }
+  
+  .value:focus::before,
+  .value:active::before {
+    opacity: 1;
+  }
+  
+  .value svg {
+    width: 15px
+  }
+  
+  .input:hover > :not(.value:hover) {
+    transition: 200ms;
+    transform: scale(0.95,0.95);
 
 /* section 3 */
 .flort{
@@ -388,6 +759,11 @@ text-underline-position: from-font;
 text-decoration-skip-ink: none;
 text-align: center;
 
+
+body {
+margin: 0;
+    font-family: Arial, sans-serif;
+  }
 }
 .hafdgjsyegwfhdsjb{
     font-family: Open Sans;
@@ -559,6 +935,7 @@ text-decoration-skip-ink: none;
 color: #33394F9E;
   }
   /* 6 section */
+
   .menu-button {
     background: none;
     border: none;
@@ -583,9 +960,6 @@ color: #33394F9E;
   }
   .input-menu {
     display: none;
-    position: absolute;
-    top: 50px;
-    left: 0;
     width: 100%;
     background: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -602,10 +976,13 @@ color: #33394F9E;
   .input-menu.get {
     display: block;
 
-  
-
-    height: 500px;
+    margin: 0 auto;
+    z-index: 20;
+    /* height: 500px; */
   }
+  /*  */
+
+
 
   .menu-button1 {
     background: none;
@@ -616,11 +993,10 @@ color: #33394F9E;
   .mobile-menu1.open1 {
     position: relative;
     display: block;
-    height: 1098px;
-    position: relative;
-    bottom: 0s;
-    margin-top: -1205px;
-    /* background-color: #000; */
+    width: 100%;
+    padding-bottom: 50px;
+    margin-top: -415px;
+    background-color: #33394F;
   }
   .mobile-menu1 {
     top: 0 auto;
@@ -633,4 +1009,26 @@ color: #33394F9E;
     /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
     padding: 10px;
   }
+  .button {
+    background-color: #33394F;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: left;
 
+}
+.button:hover {
+    background-color: #515990;
+}
+.info {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #2D3242;
+    display: none; 
+}
