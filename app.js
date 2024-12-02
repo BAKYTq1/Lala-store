@@ -1,60 +1,37 @@
 
 document.querySelector('.img').addEventListener('click', function () {
-    const menu = document.querySelector('.dropdown-menu');
-    if (menu.style.display === 'none' || menu.style.display === '') {
-      menu.style.display = 'block'; 
-    } else {
-      menu.style.display = 'none';
-    }
-  });
-   
-
-
-const track = document.querySelector('.carousel-track');
-const prevButton = document.getElementById('prevButton');
-const nextButton = document.getElementById('nextButton');
-const images = document.querySelectorAll('.carousel-image');
-
-let currentIndex = 0;
-
-function updateCarousel() {
-    const width = images[0].clientWidth;
-    track.style.transform = `translateX(-${currentIndex * width}px)`;
-}
-
-
-nextButton.addEventListener('click', () => {
-    currentIndex = (currentIndex + 1) % images.length; 
-    updateCarousel();
-});
-
-
-prevButton.addEventListener('click', () => {
-    currentIndex = (currentIndex - 1 + images.length) % images.length; 
-    updateCarousel();
-});
-
-
-window.addEventListener('resize', updateCarousel);
-
-// jqwwd
-const modal = document.getElementById('modal');
-const openModalBtn = document.getElementById('openModal');
-const closeModalBtn = document.querySelector('.close');
-
-openModalBtn.addEventListener('click', () => {
-  modal.style.display = 'flex';
-});
-
-closeModalBtn.addEventListener('click', () => {
-  modal.style.display = 'none';
-});
-
-window.addEventListener('click', (event) => {
-  if (event.target === modal) {
-    modal.style.display = 'none';
+  const menu = document.querySelector('.input');
+  if (menu.style.display === 'none' || menu.style.display === '') {
+    menu.style.display = 'block'; 
+  } else {
+    menu.style.display = 'none';
   }
 });
+document.querySelector('.img2').addEventListener('click', function () {
+  const menu = document.querySelector('.input2');
+  if (menu.style.display === 'none' || menu.style.display === '') {
+    menu.style.display = 'block'; 
+  } else {
+    menu.style.display = 'none';
+  }
+});
+document.querySelector('.img3').addEventListener('click', function () {
+  const menu = document.querySelector('.input3');
+  if (menu.style.display === 'none' || menu.style.display === '') {
+    menu.style.display = 'block'; 
+  } else {
+    menu.style.display = 'none';
+  }
+});
+
+document.querySelector('.img4').addEventListener('click', function () {
+  const menu = document.querySelector('.input4');
+  if (menu.style.display === 'none' || menu.style.display === '') {
+    menu.style.display = 'block'; 
+  } else {
+    menu.style.display = 'none';
+  }
+
 const closeButton = document.querySelector('.btn-item'); 
 const formContainer = document.querySelector('.modal'); 
 
@@ -70,14 +47,20 @@ const mobileMenu = document.getElementById('mobileMenu');
 menuButton.addEventListener('click', () => {
     mobileMenu.classList.toggle('open');
     menuButton.innerHTML = mobileMenu.classList.contains('open') ? '✖' : '☰';
-});
 
-const searchIcon = document.querySelector('#searchButton');
-const inputSearch = document.querySelector('#inputSearch')
-searchIcon.addEventListener('click', () => {
-    inputSearch.classList.toggle('get');
-    searchIcon.innerHTML = inputSearch.classList.contains('get') ? '✖' : '<img src="./img/search.svg" alt="">';
 });
+document.querySelector('.img5').addEventListener('click', function () {
+  const menu = document.querySelector('.input5');
+  if (menu.style.display === 'none' || menu.style.display === '') {
+    menu.style.display = 'block'; 
+  } else {
+    menu.style.display = 'none';
+  }
+});
+ 
+
+
+ 
 
    const rf = document.createElement('div')
    rf.innerHTML = `
@@ -297,4 +280,5 @@ data1.forEach((item) => {
   `
   menuButton1.appendChild(div)
 })
+
 
