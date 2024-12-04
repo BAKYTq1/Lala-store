@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="popup-form">
+        <h2>Купить в 1 клик</h2>
+        <form action="/submit-order" method="post">
+          <label for="name">Ф.И.О. *</label>
+          <input type="text" id="name" name="name" required />
+      
+          <label for="phone">Телефон *</label>
+          <input type="tel" id="phone" name="phone" required />
+      
+          <label for="email">E-Mail</label>
+          <input type="email" id="email" name="email" />
+      
+          <label for="comment">Комментарий к заказу</label>
+          <textarea id="comment" name="comment"></textarea>
+      
+          <div class="checkbox-group">
+            <input type="checkbox" id="agreement" name="agreement" required />
+            <label for="agreement">Я согласен на обработку персональных данных</label>
+          </div>
+      
+          <p>В стоимость заказа может быть включена <strong>цена доставки</strong></p>
+      
+          <button type="submit" class="submit-btn">ОФОРМИТЬ ЗАКАЗ</button>
+        </form>
+      </div>
+      
+</body>
+</html>

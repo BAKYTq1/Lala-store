@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      }
+    </style>
+</head>
+<body>
+    <div class="w-[375px]  m-auto">
+      <div class="flex justify-between items-center">
+        <h1 class=" text-[26px] font-bold font-sans">Корзина</h1>
+        <button class="text-[#33394F9E] text-[14px] font-normal font-sans">Удалить все</button>
+      </div>
+        <div class="w-[375px] m-auto">
+          <ul id="cart-items" class="w-[400px] "></ul>
+          <p id="cart-total"></p>
+        </div>
+       <a href="../главный/index.html"> <h1 class="text-[28px] font-bold">назад</h1></a>
+      </div>
+      
+</body>
+<script src="./app.js"></script>
+</html>

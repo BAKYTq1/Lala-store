@@ -69,14 +69,14 @@ const mobileMenu = document.getElementById('mobileMenu');
 
 menuButton.addEventListener('click', () => {
     mobileMenu.classList.toggle('open');
-    menuButton.innerHTML = mobileMenu.classList.contains('open') ? '✖' : '☰';
+    menuButton.innerHTML = mobileMenu.classList.contains('open') ? '<img src="../../img/Vector (26).svg" alt="">' : '<img src="../../img/Group 3924 (1).svg" alt="">';
 });
 
 const searchIcon = document.querySelector('#searchButton');
 const inputSearch = document.querySelector('#inputSearch')
 searchIcon.addEventListener('click', () => {
     inputSearch.classList.toggle('get');
-    searchIcon.innerHTML = inputSearch.classList.contains('get') ? '✖' : '<img src="../../img/search.svg" alt="">';
+    searchIcon.innerHTML = inputSearch.classList.contains('get') ? '<img src="../../img/Vector (26).svg" alt="">' : '<img src="../../img/search.svg" alt="">';
 });
 const input = document.querySelector(".input12")
 const shmotki = [
