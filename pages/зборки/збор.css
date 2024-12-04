@@ -3,3 +3,48 @@
     margin: 0;
     padding: 0;
 }
+.vtolou{
+    width: 375px;
+    margin: auto;
+}
+.olptom{
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+line-height: 29.26px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-left: 15px;
+}
+
+.otlnbvo{
+position: relative;
+}
+.oplkinb{
+    margin-top: -42px;
+    width: 140px;
+    height: 38px;
+    border-radius: 0px 0px 0px 10px;
+    background-color: #F7D05E;
+    position: absolute;
+}
+.lskdjfh{
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 27.24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+text-align: center;
+color: white;
+margin-top: 4px;
+}
+.t{
+    margin-bottom: 15px;
+    margin-left: 15px;
+    border-radius: 17px;
+    transform: scale(1.05);
+    transform: perspective(3);
+    }
