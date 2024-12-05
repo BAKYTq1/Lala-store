@@ -1,12 +1,4 @@
 
-// document.addEventListener("DOMContentLoaded", () => {
-//     const user = JSON.parse(localStorage.getItem("currendUser"));
-//     if (user) {
-//       window.location.href = "./pages/главный/index.html";
-//     }
-//   });
-
-
 document.querySelector('.img').addEventListener('click', function () {
   const menu = document.querySelector('.input');
   if (menu.style.display === 'none' || menu.style.display === '') {
@@ -451,7 +443,7 @@ Katalog.forEach((info) => {
     </div>
   </div>
   `;
-
+  mobileMenu1.appendChild(newElement)
 });
 
 function showInfo() {
@@ -500,7 +492,8 @@ data1.forEach((item) => {
   <h1>${item.info8}</h1>
   </div>
   </div>
-
+  `
+  menuButton1.appendChild(div)
 })
 
 
