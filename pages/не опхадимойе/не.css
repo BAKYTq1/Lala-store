@@ -430,4 +430,259 @@ body {
   font-size: 16px;
   color: #333;
 }
+/*  */
+/* Общие стили */
+.about-section {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
 
+.section-title {
+  font-family: Montserrat, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.section-description {
+  font-family: Open Sans, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #33394F9E;
+  margin-bottom: 20px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feature-card {
+  width: 300px;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: scale(1.05);
+}
+
+.icon-container {
+  width: 84px;
+  height: 84px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  background-color: #F7D05E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-container img {
+  width: 50%;
+  height: 50%;
+}
+
+.feature-title {
+  font-family: Montserrat, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.feature-description {
+  font-family: Open Sans, sans-serif;
+  font-size: 1rem;
+  color: #33394F9E;
+}
+
+/* Адаптивный дизайн */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .features {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .feature-card {
+    width: 100%;
+  }
+}
+
+
+/* Общие стили для всех устройств */
+.about-section {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.section-description {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #33394F9E;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feature-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: scale(1.05);
+}
+
+.icon-container {
+  width: 84px;
+  height: 84px;
+  background-color: #F7D05E;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.feature-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.feature-description {
+  font-size: 1rem;
+  color: #33394F9E;
+}
+@media (min-width: 1024px) {
+  .about-section {
+    padding: 40px;
+  }
+
+  .features {
+    justify-content: space-between;
+  }
+
+  .feature-card {
+    width: 30%;
+  }
+}
+@media (max-width: 768px) {
+  .about-section {
+    padding: 15px;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .features {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .feature-card {
+    width: 90%;
+  }
+
+  .icon-container {
+    width: 70px;
+    height: 70px;
+  }
+
+  .feature-title {
+    font-size: 1rem;
+  }
+
+  .feature-description {
+    font-size: 0.9rem;
+  }
+}
+
+
+
+/* Для ноутбуков и устройств с шириной экрана более 768px */
+@media (min-width: 768px) {
+  .bai {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .card {
+    width: 25%;
+    position: relative;
+  }
+
+  .btn {
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    width: 100%;
+    margin-top: 10px;
+    z-index: 12;
+  }
+
+  .ul {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .text {
+    font-size: 32px;
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  .btn:hover {
+    background-color: #ffca2c;
+    cursor: pointer;
+  }
+}
