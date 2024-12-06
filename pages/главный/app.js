@@ -107,6 +107,7 @@ shmotki.forEach((item) => {
       text1: 'Боди без рукавов "ФРУК-ТИК", розовый',
       text2: '349 ₽/шт',
       text3: 'В корзину',
+      price: 349
     },
     {
       img: '../../img/0o8doy9tcgr9xfesapj5aw07x3wcea3f.svg',
@@ -279,11 +280,21 @@ shmotki.forEach((item) => {
     <img src='${info.img}'>
     <h1 class='font-bold text-[13px] text-center  mt-[10px] w-[156px]'>${info.text1}</h1>
     <h1 class='font-bold text-[16px] text-center mt-[10px]'>${info.text2}</h1>
-    <button class=' mt-[15px] w-[140px] h-[34px] ml-[17px] bg-[#F7D05E] rounded-[94px] text-white'>${info.text3}</button>
+    <button  id='add-to-cart' class=' mt-[15px] w-[140px] h-[34px] ml-[17px] bg-[#F7D05E] rounded-[94px] text-white'>${info.text3}</button>
     </div>
     `;
     inputItem.appendChild(element)
-  })
+    const button = element.querySelector("#add-to-cart");
+    button.addEventListener("click", () => addToCard(info));
+  });
+  function addToCard(item) {
+  let cart = JSON.parse(localStorage.getItem("cart")) || [];
+  cart.push(item);
+  localStorage.setItem("cart", JSON.stringify(cart));
+  setTimeout(() => {
+  alert("Товар успешно добавлен в корзину");
+  }, 1000);
+  }
 
 const data = [
     {
@@ -331,28 +342,40 @@ const infoBlock1 = [
     img2: '../../img/vnalichi.svg',
     text1: 'Боди без рукавов "ФРУК-ТИК", розовый',
     text2: '349 ₽/шт',
-    text3: 'купить в 1 клик',
+    text3: 'В корзину',
+    razmer: 70,
+      scidka: 15,
+      vec: 2.5
   },
   {
     img: '../../img/0o8doy9tcgr9xfesapj5aw07x3wcea3f.svg',
     img2: '../../img/vnalichi.svg',
     text1: 'Боди без рукавов "ФРУК-ТИК", розовый',
     text2: '349 ₽/шт',
-    text3: 'купить в 1 клик',
+    text3: 'В корзину',
+    razmer: 70,
+      scidka: 15,
+      vec: 2.5
   },
   {
     img: '../../img/4j0u01nxo87ky1em2aajac3j9ms1k6xh 8.svg',
     img2: '../../img/vnalichi.svg',
     text1: 'Боди без рукавов "ФРУК-ТИК", розовый',
     text2: '349 ₽/шт',
-    text3: 'купить в 1 клик',
+    text3: 'В корзину',
+    razmer: 70,
+    scidka: 15,
+    vec: 2.5
   },
   {
     img: '../../img/0o8doy9tcgr9xfesapj5aw07x3wcea3f.svg',
     img2: '../../img/vnalichi.svg',
     text1: 'Боди без рукавов "ФРУК-ТИК", розовый',
     text2: '349 ₽/шт',
-    text3: 'купить в 1 клик',
+    text3: 'В корзину',
+    razmer: 70,
+    scidka: 15,
+    vec: 2.5
   }
 ]
 
@@ -364,11 +387,21 @@ infoBlock1.forEach((info) => {
   <img src='${info.img2}' class=' m-auto mt-[-10px]'>
   <h1 class='font-bold text-[13px] text-center  mt-[10px] w-[156px]'>${info.text1}</h1>
   <h1 class='font-bold text-[16px] text-center mt-[10px]'>${info.text2}</h1>
-  <button class='mt-[15px] w-[140px] h-[34px] ml-[17px] bg-[#F7D05E] rounded-[94px] text-white'>${info.text3}</button>
+  <button  id='add-to-cart' class='mt-[15px] w-[140px] h-[34px] ml-[17px] bg-[#F7D05E] rounded-[94px] text-white'>${info.text3}</button>
   </div>
   `;
   div2.appendChild(element2)
-})
+  const button = element2.querySelector("#add-to-cart");
+  button.addEventListener("click", () => addToCard(info));
+});
+function addToCard(item) {
+let cart = JSON.parse(localStorage.getItem("cart")) || [];
+cart.push(item);
+localStorage.setItem("cart", JSON.stringify(cart));
+setTimeout(() => {
+alert("Товар успешно добавлен в корзину");
+}, 1000);
+}
 
 
   // inputSearch.appendChild(element1)
@@ -409,10 +442,10 @@ Katalog.forEach((info) => {
   const newElement =  document.createElement('div')
   newElement.innerHTML = `
   <div class='w-[375px] m-auto '>
-  <button class="button" onclick="showInfo()">${info.text1}</button>
+  <button class="button text-white font-normal text-[24px] w-[375px] font-sans" onclick="showInfo()">${info.text1}</button>
   <div class="info text-[20px] text-white font-normal font-sans" id="info">
       <h1 class='mt-[25px]'>${info.text2}</h1> 
-      <h1 class='mt-[25px]'>${info.text3}</h1>
+      <a href='../боди/index.html'><h1 class='mt-[25px]'>${info.text3}</h1></a>
       <h1 class='mt-[25px]'>${info.text4}</h1>
       <h1 class='mt-[25px]'>${info.text5}</h1>
       <h1 class='mt-[25px]'>${info.text6}</h1>

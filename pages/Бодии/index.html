@@ -32,68 +32,42 @@
         </header>
         <main>
             <section>
-              <div class="w-[375px] mt-[50px] m-auto">
-                <div class="flex justify-between items-center">
-                  <h1 class=" text-[26px] font-bold font-sans ">Корзина</h1>
-                  <button class="text-[#33394F9E] text-[14px] font-normal font-sans">Удалить все</button>
-                </div>
-                  <div class="w-[375px] m-auto">
-                    <ul id="cart-items" class="w-[400px] "></ul>
-                    <p id="cart-total"></p>
+            
+              <div class="ohjk">
+                <div class="zxcv">
+                  <div>
+                      <h2 class="bnmvc text-[30px] mt-[20px]">Боди</h2>
                   </div>
-                  <button class="w-[347px] h-[45px] rounded-[25px] bg-[#F7D05E] mt-[100px] text-[18px] font-bold font-sans text-white" id="open-popup">Оформить заказ</button>
-                </div>
-                <!-- // -->
-                <div class="popup-overlay" id="popup" style="display: none;">
-                  <div class="popup-content">
-                      <div class="popup-header">
-                          <h2>Заполните поля для оформления заказа</h2>
-                          <button class="close-btn" id="close-popup"><img src="../../img/Vector (26).svg" alt=""></button>
-                      </div>
-                      <div class="form-group">
-                          <label for="delivery-type">Тип получения</label>
-                          <select id="delivery-type">
-                              <option value="Доставка">Доставка</option>
-                              <option value="Самовывоз">Самовывоз</option>
-                          </select>
-                      </div>
-                      <div class="form-group">
-                          <label>Способ оплаты</label>
-                          <div class="checkbox-group">
-                              <input type="checkbox" id="payment-card">
-                              <label for="payment-card">Оплата картой</label>
-                          </div>
-                          <div class="checkbox-group">
-                              <input type="checkbox" id="payment-cash">
-                              <label for="payment-cash">Оплата наличными</label>
-                          </div>
-                      </div>
-                      <div class="form-group">
-                          <label>Ф.И.О</label>
-                          <input type="text" id="text" placeholder="Введите Ф.И.О">
-                      </div>
-                      <div class="form-group">
-                          <label>Адрес</label>
-                          <input type="text" id="address" placeholder="Введите адрес">
-                      </div>
-                      <div class="form-group">
-                          <label>Email</label>
-                          <input type="email" id="email" placeholder="Введите email">
-                      </div>
-                      <div class="form-group">
-                          <label>Телефон</label>
-                          <input type="text" id="number" placeholder="Введите номер телефона">
-                      </div>
-                      <div>
-                        <label class="jtue">Коментарии<br>
-                    <textarea id="question" class="w-[347px] " placeholder=""></textarea><br>
-                      </div>
-                      <div class="button-group">
-                        <a href="../текуший заказ/index.html"><button class="w-[347px] h-[45px] rounded-[25px] bg-[#F7D05E] mt-[20px] text-[18px] font-bold font-sans text-white" id="submit-button"> Оформить заказ</button></a>
-                      </div>
+                  <div class="w-[375px] h-[51px] m-auto flex mt-[20px]">
+                    <button id="toggleButton" class="btn w-[100%] h-[100%] bg-[#F4F4F4]  flex gap-[10px]"><img src="../../img/Group 3967.svg" alt="">Фильтры <img src="../../img/Group 3535.svg" alt="" class="ml-[170px]"> <img src="../../img/Group 3534.svg" alt=""> <img src="../../img/Group 3539.svg" alt=""></button>
                   </div>
+  <div id="myElement">
+    <div class="container">
+      <h1>Фильтр товаров</h1>
+      <form id="filter-form">
+        <div class="filter-group">
+          <label for="price">Максимальная цена:</label>
+          <input type="number" id="price" name="price" placeholder="Цена">
+        </div>
+        <div class="filter-group">
+          <label for="color">Цвет:</label>
+          <input type="text" id="color" name="color" placeholder="Цвет">
+        </div>
+        <div class="filter-group">
+          <label for="size">Размер:</label>
+          <input type="text" id="size" name="size" placeholder="Размер">
+        </div>
+        <button type="submit">Применить фильтр</button>
+      </form>
+      <div id="results">
+        <!-- Результаты фильтрации будут отображены здесь -->
+      </div>
+    </div>
+  </div>
+                </div>
+                <h1 class="font-bold font-sans text-[26px] ml-[11px]">Товары look'а</h1>
               </div>
-
+                  <div id="input-item" class="w-[347px] flex flex-wrap justify-between  m-auto mt-[20px]"></div>
 </section>
 </main>
     <footer>

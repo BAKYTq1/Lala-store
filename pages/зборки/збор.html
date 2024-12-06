@@ -5,12 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./збор.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      }
+    </style>
 </head>
 <body>
-    <div class="vtolou">
+    <header>
+        <div class="w-[375px] h-[40px] flex justify-between m-auto flex-wrap">
+                <button class="menu-button" id="menuButton">
+                  <span class="menu-icon"><img src="../../img/Group 3924 (1).svg" alt=""></span> 
+                </button>
+                <div class="logo"><img src="../../img/8332kpf5rgrj8uwp26x8fbn42mdty1bn 1.svg" alt=""></div>
+                <button class="search-button" id="searchButton">
+                  <span class="search-icon"><img src="../../img/search.svg" alt=""></span>
+                </button>
+                <nav class="mobile-menu" id="mobileMenu">
+                </nav>
+                <nav class="input-menu" id="inputSearch">
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section>
+    <div class="vtolou mt-[40px]">
       <div>
         <div class="t">
-            <h2 class="olptom">
+            <h2 class="olptom text-[35px]">
                 Готовые подборки
             </h2>
         </div>
@@ -135,6 +160,62 @@
         </div>
       </div>
     </div>
-    <script src="./збор.js"></script>
+</section>
+</main>
+    <footer>
+        <div class="w-[100%] h-[370px] m-auto bg-[#F4F4F4] mt-[30px]">
+            <div class="m-auto w-">
+          <div class="w-[206px] m-auto text-center pt-[30px]">
+            <img src="../../img/8332kpf5rgrj8uwp26x8fbn42mdty1bn 1 (1).svg" alt="">
+            <h1 class="pt-[12px] text-[#33394F6B]">2022 © «LalaSTORE»</h1>
+          </div>
+            <div class="w-[308px] flex justify-between items-center m-auto mt-[41px]">
+              <img src="../../img/Vector (18).svg" alt="">
+              <img src="../../img/Vector (19).svg" alt="">
+              <img src="../../img/Vector (20).svg" alt="">
+              <img src="../../img/Vector (21).svg" alt="">
+            </div>
+            <nav>
+              <ul class="text-[14px] font-normal text-[#33394F6B] text-center mt-[34px]">
+                <a href="">
+                  <li>Политика конфиденциальности</li>
+                </a>
+              </ul>
+            </nav>
+            <div class="w-[100%] m-auto h-[84px] bg-[#33394F] mt-[36px] ">
+                <div class="m-auto w-[375px] h-[84px] mt-[36px] flex justify-around items-center text-white flex-wrap">
+              <div class=" w-[70px] justify-center items-center text-center leading-[30px] ">
+                <button class="menu-button1" id="menuButton1">
+                <img src="../../img/Group 3924.svg" alt="" class="m-auto">
+                <h1 class="text-[12px] font-normal font-sans	">Каталог</h1>
+              </button>
+              </div>
+              <div class=" w-[70px] justify-center items-center text-center leading-[20px] mt-[-5px]">
+                <button>
+                <img src="../../img/Group 3474.svg" alt="" class="m-auto">
+                <h1 class="text-[12px] font-normal font-sans	">Избранное</h1>
+              </button>
+              </div>
+              <div class=" w-[50px] justify-center items-center text-center leading-[30px]">
+               <a href="../корзина/index.html"> <button>
+                <img src="../../img/Vector (24).svg" alt="" class="m-auto">
+                <h1 class="text-[12px] font-normal font-sans	">Корзина</h1></a>
+              </button>
+              </div>
+              <div class=" w-[70px] justify-center items-center text-center leading-[30px]">
+                <a href="../войти/index.html"><button>
+                <img src="../../img/Vector (23).svg" alt="" class="m-auto">
+                <h1 class="text-[12px] font-normal font-sans	">Войти</h1></a>
+              </button>
+              </div>
+              <div class="w-[134px] h-[5px] m-auto rounded-[3px] bg-white"></div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <nav class="mobile-menu1" id="mobileMenu1">
+    </nav>
+      </footer>
 </body>
+<script src="./збор.js"></script>
 </html>
